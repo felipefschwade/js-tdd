@@ -1,0 +1,24 @@
+{
+  "name": "jstdd",
+  "version": "1.0.0",
+  "description": "Curso de TDD com JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipefschwade/js-tdd.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "lib"
+  ],
+  "author": "Felipe F. S.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipefschwade/js-tdd/issues"
+  },
+  "homepage": "https://github.com/felipefschwade/js-tdd#readme"
+}
