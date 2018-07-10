@@ -4,6 +4,8 @@
   "description": "Curso de TDD com JS.",
   "main": "index.js",
   "scripts": {
+    "prepush": "npm run lint",
+    "lint": "./node_modules/.bin/eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/felipefschwade/js-tdd/issues"
   },
-  "homepage": "https://github.com/felipefschwade/js-tdd#readme"
+  "homepage": "https://github.com/felipefschwade/js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0",
+    "husky": "^0.14.3",
+    "jshint": "^2.9.5"
+  }
 }
